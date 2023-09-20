@@ -1,0 +1,29 @@
+name: Accept Submission
+description: Notify the user that a submission was accepted
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is some description
+  - type: input
+    attributes:
+      label: Researcher name
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Congratulations text
+      description:
+        Some words to congratulate the researcher about their findings.
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: Some other field
+      options:
+        - Some option \#1
+        - Some option \#2
+        - Some option \#3
+    validations:
+      required: true
