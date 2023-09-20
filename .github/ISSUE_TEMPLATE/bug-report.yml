@@ -22,7 +22,7 @@ body:
     attributes:
       label: Select a template
       options:
-        - Submission successfull
+        - Submission successful
         - More details required
         - Some other template
     validations:
