@@ -20,10 +20,10 @@ body:
   - type: dropdown
     id: deployment
     attributes:
-      label: Some other field
+      label: Select a template
       options:
-        - Some option \#1
-        - Some option \#2
-        - Some option \#3
+        - Submission successfull
+        - More details required
+        - Some other template
     validations:
       required: true
